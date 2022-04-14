@@ -1,0 +1,23 @@
+{
+  "name": "express-heroku",
+  "version": "1.0.0",
+  "description": "webserver express on heroku",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aditapk/node-express-heroku.git"
+  },
+  "author": "aditap khongjun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aditapk/node-express-heroku/issues"
+  },
+  "homepage": "https://github.com/aditapk/node-express-heroku#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
