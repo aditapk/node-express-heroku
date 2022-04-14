@@ -2,7 +2,11 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('Hello, Express web server');
+    res.send('Welcome to Heroku webserver');
+})
+
+app.get('/api', (req, res) => {
+    res.send('This is for API');
 })
 
 const port = process.env.PORT || 3000;
